@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+:root {
+
+  /* color start */
+  --green1: #4E9F0D;
+  --black: #000000;
+  --wtihe: #FFFFFF;
+  /* colors end  */
+
+
+  /* sizes */
+  --fw400: 400;
+  --fw700: 700;
+  --fw900: 900;
+  /* sizes end */
+
+
+  /* Responsive */
+  --coll-3: calc(100% / 12 * 3);
+  --coll-4: calc(100% / 12 * 4);
+  --coll-6: calc(100% / 12 * 6);
+  --coll-12: calc(100% / 12 * 12);
+  /* Responsive end */
+
+}
+
+.container {
+  max-width: 1140px;
+  height: auto;
+  /* border: 1px solid red; */
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.j-beetwen {
+  justify-content: space-between;
+}
+
+.a-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background: var(--black);
+}
+
+/*==========================HEADER START========================== */
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+}
+
+header {
+  background-image: url(./rasmlar/bg_img\ 1.jpg);
+  background-position-x: center;
+  background-size: cover;
+  height: auto;
+  margin: auto;
+}
+
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 3px 30px;
+  background: var(--green1);
+  color: var(--wtihe);
+  border-radius: 4px;
+}
+
+.logo a {
+  color: var(--wtihe);
+}
+
+header ul li a {
+  padding: 10px 20px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+ header ul li a:hover {
+  background: var(--green1);
+}
+
+header h1 {
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 85px;
+  text-transform: uppercase;
+
+  color: #4E9F0D;
+
+}
+
+header .p1 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  /* identical to box height */
+
+  text-transform: lowercase;
+
+  color: #4E9F0D;
+}
+
+header .p {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #FFFFFF;
+}
+
+.price {
+  background-color: var(--green1);
+  width: 300px;
+  height: 90px;
+
+}
+
+.price p {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 60px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+}
+/*==========================HEADER END========================== */
+
+
+
+
+/*==========================SECTION START========================== */
+
+section {
+  height: auto;
+  margin: auto;
+}
+.list {
+  max-width: 1140px;
+  height: auto;
+  /* border: 1px solid red; */
+  margin: auto;
+}
+.list nav {
+  width: 500px;
+  padding: 0 0 0 10px;
+}
+.list nav ul{ 
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+.list nav ul li a {
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-transform: capitalize;
+
+color: #7A7A7A;
+
+}
+.list nav ul li a:hover {
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-transform: capitalize;
+color: #4E9F0D;
+}
+.box {
+  padding: 0 0 0 10px;
+}
+ .pp {
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-transform: uppercase;
+color: var(--green1);
+}
+.box p {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+color: var(--wtihe);
+}
+section .orta .item .box:hover{
+
+  background: rgba(78, 159, 13, 0.5);
+
+}
+/*==========================SECTION END========================== */
+
+
+
+/*==========================MAIN START========================== */
+main {
+  background-image: url(./rasmlar/section_bg\ 1.jpg);
+  background-position-x: center;
+  background-size: cover;
+  height: auto;
+  margin: auto;
+}
+main p{
+  color: var(--wtihe);
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* text-align: center; */
+margin: auto 168px;
+}
+main h2 {
+  color: var(--green1);
+  
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-transform: uppercase;
+text-align: center;
+}
+.list2 {
+  max-width: 1140px;
+  height: auto;
+  /* border: 1px solid red; */
+  margin: auto;
+  flex-wrap: wrap;
+  margin: auto;
+}
+hr {
+  margin: auto;
+}
+
+
+/*==========================FOOTER START========================== */
+footer {
+  max-width: 1140px;
+  height: auto;
+  /* border: 1px solid red; */
+  margin: auto;
+width: 1440px;
+background: var(--black);
+}
+footer .list3 h1 {
+  color: var(--green1);
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-transform: uppercase;
+text-align: center;
+}
+footer ul li .ong{
+  
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-transform: uppercase;
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #4E9F0D;
+
+}
+footer .nav1 ul li{
+margin: auto;
+}
+ footer .nav1 ul li a {
+  width: 300px;
+  justify-content: space-around;
+  margin: auto;
+  padding: 10px 20px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  
+}
+footer .nav1 ul li a:hover{
+  color: #4E9F0D; 
+}
+footer p {
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 100;
+font-size: 16px;
+line-height: 19px;
+text-transform: capitalize;
+color: #FFFFFF;
+text-align: center;
+
+}
